@@ -1,0 +1,127 @@
+*{  
+    margin: 0px;
+    font-family: 'Inter', sans-serif;   
+}
+ #logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#Hero{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#Body{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+#MenuSuperior {
+    background-image: url(imagens/Background-High-Top.svg);
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+#MenuInformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.Icones {
+    margin: 50px 0px 50px 125px;
+    padding: 25px;
+}
+.TextoInformativo {
+   display: flex;
+   align-items: center;
+}
+#secao_video{
+ display: grid;
+ grid-auto-flow: column;
+ columns: auto;
+}
+#video{
+    margin: 50px 0px 50px 150px;
+}
+#titulo_video {
+    color: #247BA0;
+    margin-top: 75px;
+    margin-left: -150px;
+    
+}
+#texto_video{
+    margin-left: -150px;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+#texto_card{ 
+    color: #EAECE5;
+    text-align: center;
+    font-size: 28px; 
+}
+#div-cards{
+display: grid;
+grid-auto-flow: column;
+margin-top: 25px;
+}
+.cards{
+    margin: 25px;
+}
+
+#samantha{
+    display: none;
+}
+#seta_esquerda{
+    display: none;
+}
+.setas{
+    margin-top: 55%;
+    cursor: pointer;
+}
+.setas:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+#formulario{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+#texto_formulario{
+    margin: 25px;
+   text-align: center;
+    font-size: 28px;
+    color: #383838;
+}
+#form{
+    margin: 15px;
+}
+input{
+    padding-left: 10px;
+    margin: 5px;
+    width: 300px;
+    Height : 40px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    color: #383838;
+}
+button{
+    background-color: #247BA0;
+    width: 240px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: #368cb0;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 15px 0px #5d6177;
+}
